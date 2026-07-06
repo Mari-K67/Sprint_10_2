@@ -5,7 +5,7 @@ import helpers
 from data import Responses
 #pytest tests/test_user_login.py
 
-class TestCreateCourier:
+class TestUserLogin:
     @allure.title('Успешная авторизация ранее зарегистрированного пользователя')
     @allure.description("""
                         1. запрос возвращает код ответа 201;

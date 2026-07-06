@@ -5,7 +5,7 @@ import helpers
 from data import Responses
 #pytest tests/test_ads.py
 
-class TestCreateCourier:
+class TestAds:
     @allure.title('Успешное создание объявления')
     @allure.description("""
                         1. запрос возвращает код ответа 201;

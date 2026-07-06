@@ -5,7 +5,7 @@ import helpers
 from data import Responses
 #pytest tests/test_create_user.py
 
-class TestCreateCourier:
+class TestCreateUser:
     @allure.title('Успешное создание пользователя')
     @allure.description("""
                         1. запрос возвращает код ответа 201;
